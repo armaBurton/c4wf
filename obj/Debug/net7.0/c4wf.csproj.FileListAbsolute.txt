@@ -1,0 +1,15 @@
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\bin\Debug\net7.0\c4wf.exe
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\bin\Debug\net7.0\c4wf.deps.json
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\bin\Debug\net7.0\c4wf.runtimeconfig.json
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\bin\Debug\net7.0\c4wf.dll
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\bin\Debug\net7.0\c4wf.pdb
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.csproj.AssemblyReference.cache
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.GeneratedMSBuildEditorConfig.editorconfig
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.AssemblyInfoInputs.cache
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.AssemblyInfo.cs
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.csproj.CoreCompileInputs.cache
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.dll
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\refint\c4wf.dll
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.pdb
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\c4wf.genruntimeconfig.cache
+D:\001 work\projects\c#\cs11dotnet7\Chapter04\c4wf\obj\Debug\net7.0\ref\c4wf.dll
