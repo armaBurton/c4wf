@@ -75,4 +75,23 @@ partial class Program{
       Write($"{CardinalToOrdinal(number)} ");
     }
   }
+
+  static int Factorial(int number){
+    if (number < 0){
+      throw new ArgumentException(message:
+        $"The factorial function is defined for non-negative integers only. Input {number}",
+        paramName: nameof(number));
+    } else if (number == 0){
+      return 1;
+    } else {
+      return number * Factorial(number - 1);
+    }
+  }
+
+  static void RunFactorial(){
+    for (int i = 1; 1 <= 15; i++){
+      WriteLine($"{i}! = {Factorial(i):N0}");
+    }
+  }
+
 }
