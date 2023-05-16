@@ -89,8 +89,8 @@ partial class Program{
   }
 
   static void RunFactorial(){
-    for (int i = 1; 1 <= 15; i++){
-      WriteLine($"{i}! = {Factorial(i):N0}");
+    for (int i = 1; i <= 15; i++){
+      WriteLine($"{i}! = {Factorial(i)}");
     }
   }
 
