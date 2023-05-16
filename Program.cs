@@ -1,4 +1,16 @@
-﻿RunFibImperative();
+﻿
+double a = 4.5,
+       b = 2.5;
+double answer = Add(a, b);
+
+WriteLine($"{a} + {b} = {answer}");
+WriteLine($"Press ENTER to end the app.");
+
+static double Add(double a, double b){
+  return a + b; //deliberate bug
+}
+
+// RunFibImperative();
 
 // RunFactorial();
 
