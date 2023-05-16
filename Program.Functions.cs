@@ -88,8 +88,6 @@ partial class Program{
         return number * Factorial(number - 1);
       }
     }
-
-
   }
 
   static void RunFactorial(){
