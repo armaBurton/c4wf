@@ -48,6 +48,11 @@ partial class Program{
     return amount * rate;
   }
 
+/// <summary>
+/// Pass a 32-bit integer and it will be converted into its ordinal equivalent
+/// </summary>
+/// <param name ="number">Number as a cardinal value e.g. 1, 2, 3, and so on.</param>
+/// <returns>Number as an ordinal value e.g. 1st, 2nd, 3rd, and so on.</returns>
   static string CardinalToOrdinal(int number){
     int lastTwoDigits = number % 100;
 
