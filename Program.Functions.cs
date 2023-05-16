@@ -11,6 +11,7 @@ partial class Program{
     decimal amount,
     string twoLetterRegionCode
   ){
+    decimal rate = 0.0M;
     switch (twoLetterRegionCode){
       case "CH": //Switzerland
         rate = 0.08M;
@@ -18,6 +19,10 @@ partial class Program{
       case "DK": //Denmark
       case "NO": //Norway
         rate = 0.25M;
+        break;
+      case "GB":
+      case "FR":
+        rate = 0.2M;
         break;
       case "HU": //Hungary
         rate = 0.27M;
