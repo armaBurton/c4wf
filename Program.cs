@@ -1,4 +1,6 @@
-﻿RunFactorial();
+﻿RunFibImperative();
+
+// RunFactorial();
 
 // RunCardinalToOrdinal();
 

@@ -49,7 +49,7 @@ partial class Program{
   }
 
 /// <summary>
-/// Pass a 32-bit integer and it will be converted into its ordinal equivalent
+///   Pass a 32-bit integer and it will be converted into its ordinal equivalent
 /// </summary>
 /// <param name ="number">Number as a cardinal value e.g. 1, 2, 3, and so on.</param>
 /// <returns>Number as an ordinal value e.g. 1st, 2nd, 3rd, and so on.</returns>
@@ -104,6 +104,24 @@ partial class Program{
       } catch (Exception ex){
         WriteLine($"{i}! throws {ex.GetType()}: {ex.Message}");
       }
+    }
+  }
+
+  static int FibImperative(int term){
+    if (term == 1){
+      return 0;
+    } else if (term == 2){
+      return 1;
+    } else {
+      return FibImperative(term - 1) + FibImperative(term - 2);
+    }
+  }
+
+  static void RunFibImperative(){
+    for (int i = 1; i <= 30; i++){
+      WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
+      arg0:CardinalToOrdinal(i),
+      arg1: FibImperative(term: i));
     }
   }
 }
